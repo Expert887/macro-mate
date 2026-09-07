@@ -1,0 +1,12 @@
+-- Seed para el usuario Damian Kios
+-- IMPORTANT: Este archivo solo inserta el perfil. El usuario en auth.users
+-- debe crearse ANTES desde /auth (registro normal) o desde el dashboard de Supabase.
+-- Una vez creado el usuario, descomenta y ejecuta:
+
+-- INSERT INTO public.profiles (id, display_name, motivation_style)
+-- VALUES (
+--   (SELECT id FROM auth.users WHERE email = 'expertcanva.academy@gmail.com' LIMIT 1),
+--   'Damian Kios',
+--   'faith'
+-- )
+-- ON CONFLICT (id) DO NOTHING;
